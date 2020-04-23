@@ -1,0 +1,57 @@
+body {
+  background-color: teal;
+}
+.container {
+  margin: auto;
+  width: 80%;
+  text-align: center;
+  background-color: white;
+  height: inherit;
+  border-radius: 10px;
+}
+
+#form {
+  margin: 100px auto;
+  border: black solid 1px;
+  padding: 10px;
+  margin: 10px auto;
+  border-radius: 10px;
+}
+
+#form #title {
+  border: gray solid 1px;
+  border-radius: 10px;
+  margin: 0px 15px;
+}
+
+#form #submit {
+  border: none;
+  background-color: turquoise;
+  color: white;
+  border-radius: 10px;
+  height: 25px;
+}
+
+#list-wrapper {
+  height: inherit;
+}
+
+#list-wrapper .items div {
+  display: inline-block;
+  margin: 20px auto;
+}
+
+.task-wrapper .task {
+  display: inline-block;
+  margin: 20px auto;
+}
+
+.task-wrapper button {
+  margin: 0px 10px;
+  border: solid 1px turquoise;
+  background-color: white;
+  color: turquoise;
+  border-radius: 5px;
+  height: 20px;
+}
+
